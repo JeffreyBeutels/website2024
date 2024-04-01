@@ -1,0 +1,31 @@
+body{
+  background-color: beige;
+}
+
+h1 {
+  color: rgb(180, 30, 30);
+}
+
+ul> .nav-link{
+  color:rgb(253, 34, 34)
+}
+
+.special-elite-regular {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.zeyada-regular {
+  font-family: "Zeyada", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.carousel-item{
+
+}
+
+div{
+  /*border: solid red 3px;*/
+}
