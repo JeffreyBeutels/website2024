@@ -13,8 +13,8 @@
     <link href="./styles.css" rel="stylesheet">
   </head>
   <body>
-    <!--Header-->
-    <header class="d-flex justify-content-center pt-3 sticky-top bg-secondary-subtle">
+    <!--Header
+    <header class="navbar navbar-expand-md d-flex justify-content-center pt-3 sticky-top bg-secondary-subtle">
       <ul class="nav nav-pills special-elite-regular ">
         <li class="nav-item "><a href="#" class="nav-link text-body-secondary" aria-current="page">Home</a></li>
         <li class="nav-item "><a href="#" class="nav-link text-body-secondary">Aanbod</a></li>
@@ -24,12 +24,64 @@
         <li class="nav-item"><a href="#" class="nav-link text-body-secondary">Reviews</a></li>
         <li class="nav-item"><a href="#" class="nav-link text-body-secondary">Contact</a></li>
       </ul>
-    </header>
+    </header> -->
+    
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-sm bg-body-tertiary rounded  special-elite-regular " aria-label="navigationbar">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigationbar" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse justify-content-md-center" id="navbars">
+            <ul class="navbar-nav">
+              <li class="nav-item "><a href="#" class="nav-link text-body-secondary" aria-current="page">Home</a></li>
+              <li class="nav-item "><a href="#" class="nav-link text-body-secondary">Aanbod</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-body-secondary">Portfolio</a></li>
+              <li class="nav-item"><a href="#" class="nav-link"><img src="./images/logotranspsmall.png" height="50"></a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-body-secondary">Over mij</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-body-secondary">Reviews</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-body-secondary">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
 
     <!-- Content -->
     <!-- Page header -->
     <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
-        <h1 class="zeyada-regular display-5 ">Replace font here</h1>
+      <h1 class="Themysion display-5 ">Fancy Title Goes Here</h1>
+  </div>
+
+  <!-- Cards -->
+    <div class="container px-4 py-5" id="custom-cards">
+    
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>          
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Title -->
