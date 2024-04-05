@@ -5,9 +5,16 @@
   font-style: normal;
 }
 
+h1{
+  color: rgb(136, 74, 57);
+}
 
 body{
-  background-color: beige;
+  background-color: rgb(249, 224, 187);
+}
+
+.nav{
+  background-color: rgb(195, 129, 84);
 }
 
 h1 {
@@ -26,6 +33,7 @@ ul> .nav-link{
 
 .Themysion {
   font-family: Themysion, Tahoma, serif;
+  color: rgb(136, 74, 57);
 }
 
 .carousel-item{
