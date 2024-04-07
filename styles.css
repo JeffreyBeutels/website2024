@@ -41,5 +41,10 @@ ul> .nav-link{
 }
 
 div{
- /* order: red solid 2px; */
+ /* border: red solid 2px; */
+}
+
+.nav-item{
+ /* border: blue solid 2px;
+  text-align: center; */
 }
