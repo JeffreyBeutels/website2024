@@ -5,20 +5,36 @@
   font-style: normal;
 }
 
+/* 
+  Black: #000000
+  Dark Brown: #643300
+  Brown: #7B3B12
+  Beige: #65451F
+  Beige: #61481C
+*/
+
+/* obsolete */
 h1{
   color: rgb(136, 74, 57);
+
 }
 
+/* Global background colour */
 body{
-  background-color: rgb(249, 224, 187);
+ background-color: rgb(249, 224, 187); 
+  background-color: #65451F;
 }
 
+/* Navigation colour */
 .nav{
   background-color: rgb(195, 129, 84);
+  background-color: #643300;
+  color: #c9c9c9;
 }
 
 h1 {
-  color: rgb(180, 30, 30);
+  color: rgb(186, 36, 36);
+  color: #000000
 }
 
 ul> .nav-link{
@@ -29,11 +45,14 @@ ul> .nav-link{
   font-family: "Special Elite", system-ui;
   font-weight: 400;
   font-style: normal;
+  color: #ffffff
 }
 
+/*  font & colour */
 .Themysion {
   font-family: Themysion, Tahoma, serif;
-  color: rgb(136, 74, 57);
+  color: rgb(234, 82, 40);
+  color: #000000
 }
 
 .carousel-item{
@@ -48,3 +67,5 @@ div{
  /* border: blue solid 2px;
   text-align: center; */
 }
+
+
