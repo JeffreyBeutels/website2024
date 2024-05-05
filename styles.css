@@ -66,6 +66,10 @@ ul.navbar-nav a:hover {
   color: #fff; 
 }
 
+footer a.nav-link a:hover{
+  color: #fff; 
+}
+
 .activeButton {
   text-decoration: underline;
 }
