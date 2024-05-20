@@ -5,21 +5,17 @@ var contactButton = document.getElementById("contactbutton");
 contactButton.addEventListener("click",onClick);
 
 function onClick(){
-  // 
-  console.log("on click");
-  //change button text
 
-  this.innerHTML = "Thanks for clicking";
+  this.innerHTML = "Bezig..";
 
   setTimeout(function(){
               console.log("Run timer..");
-              console.log(contactButton.innerHTML);
-              contactButton.innerHTML = "Button...";
-              console.log("done timer..");
+
+              contactButton.innerHTML = "Verstuurd!";
+ 
             },
             500);
 
 }
 
 
-console.log("Finished our program.");
