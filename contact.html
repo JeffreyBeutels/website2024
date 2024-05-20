@@ -42,45 +42,32 @@
       <h1 class="Themysion display-1">Contact</h1>
     </div>
 
-    <!-- Version 2 -->
-    <div class="container">
-        <!-- modify this form HTML and place wherever you want your form -->
-        <form
-          action="https://formspree.io/f/moqgzqeo"
-          method="POST"
-        >
-          <label>
-            Your email:
-            <input type="email" name="email">
-          </label>
-          <label>
-            Your message:
-            <textarea name="message"></textarea>
-          </label>
-          <!-- your other form fields go here -->
-          <button type="submit">Send</button>
-        </form>
-    </div>
     
     <!-- Get in touch -->
     <div class="container">
       <div class="row row-cols-1  text-center">
+        <form
+          action="https://formspree.io/f/moqgzqeo"
+          method="POST"
+        >
+          <div class="input-group mb-3">
+            <input type="text" name="name" class="form-control" placeholder="Je naam" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3">
+            <input type="text" name="phone" class="form-control" placeholder="Je telefoonnummer" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3">
+            <input type="email" name="email" class="form-control" placeholder="Je mailadres" aria-label="Username" aria-describedby="basic-addon1">
+          </div>        
+          <div class="input-group">
+            <textarea type="text" name="message" class="form-control" placeholder="Je vraag" aria-label="With textarea"></textarea>
+          </div>       
+          <div class="my-2">
+            <button id="contactbutton" class="btn btn-secondary" type="submit">Verstuur</button>
+          </div>    
+        </form>
+    
    
-        <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Je naam" aria-label="Username" aria-describedby="basic-addon1">
-        </div>
-        <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Je telefoonnummer" aria-label="Username" aria-describedby="basic-addon1">
-        </div>
-        <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Je mailadres" aria-label="Username" aria-describedby="basic-addon1">
-        </div>        
-        <div class="input-group">
-          <textarea class="form-control" placeholder="Je vraag" aria-label="With textarea"></textarea>
-        </div>       
-        <div class="my-2">
-          <button id="contactbutton" class="btn btn-secondary" type="button">Button</button>
-        </div>       
 
       </div>
 
